@@ -1,3 +1,3 @@
-import { ThemeProvider } from "@vtex/admin-ui";
+import { createSystem } from "@vtex/admin-ui";
 
-export const Component = ThemeProvider;
+export const createSystemExported = createSystem;
